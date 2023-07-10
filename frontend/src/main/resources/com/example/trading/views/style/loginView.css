@@ -1,0 +1,53 @@
+#AnchorPane {
+    -fx-background-color: #212121;
+}
+
+#logo {
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.3), 10, 0.0, 0, 5);
+}
+
+#loginLabel {
+    -fx-font-size: 24px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-translate-y: 90;
+}
+
+#inputBox {
+    -fx-background-color: #3d3d3d;
+    -fx-border-color: #616161;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.3), 10, 0.0, 0, 5);
+}
+
+#loginButton {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #212121;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-min-width: 120px;
+    -fx-padding: 10px 20px;
+}
+
+#loginButton:hover {
+    -fx-background-color: #f2f2f2;
+}
+
+Label, TextField {
+    -fx-font-family: "Arial";
+}
+
+#inputBox Label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#inputBox TextField, #inputBox PasswordField {
+    -fx-background-color: #212121;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-text-fill: #FFFFFF;
+}

@@ -1,0 +1,74 @@
+/* Set the background color of the root node to black */
+.root {
+    -fx-background-color: #212121;
+}
+
+/* Set the text color of labels to white */
+.label {
+    -fx-text-fill: #fff;
+}
+
+/* Set the background color of text fields, combo boxes and buttons to white */
+.text-field, .combo-box, .button {
+    -fx-background-color: #fff;
+}
+
+/* Set the text color of text fields, combo boxes and buttons to black */
+.text-field, .combo-box, .button {
+    -fx-text-fill: #000;
+}
+
+/* Set the background color of the order book table to black */
+.orderBookTable {
+    -fx-background-color: #212121;
+}
+
+/* Set the text color of the order book table cells to green */
+#orderBookTable .table-cell {
+    -fx-text-fill: green;
+}
+
+/* Set the background color of the chart to transparent */
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+/* Set the color of the chart axes to white */
+.axis {
+    -fx-text-fill: #fff;
+}
+
+/* Set the color of the chart grid lines to gray */
+.chart-horizontal-grid-lines, .chart-vertical-grid-lines {
+    -fx-stroke: #777;
+}
+
+/* Set the color of the chart series to green */
+.chart-series-line {
+    -fx-stroke: green;
+}
+
+/* Remove the chart symbols */
+.chart-line-symbol {
+    -fx-background-color: transparent;
+}
+
+/* Remove the chart grid lines */
+.chart-vertical-grid-lines-visible, .chart-horizontal-grid-lines-visible {
+    -fx-stroke: transparent;
+}
+.table-view {
+    -fx-pref-height: 200;
+}
+
+.text-field, .combo-box, .button {
+    -fx-pref-width: 120px;
+    -fx-max-width: 120px;
+    -fx-min-width: 120px;
+    -fx-text-fill: #000;
+    -fx-background-color: #fff;
+}
+
+.label, .text-field, .combo-box, .button {
+    -fx-margin-right: 20px;
+}

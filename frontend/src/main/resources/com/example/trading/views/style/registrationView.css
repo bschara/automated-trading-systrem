@@ -1,0 +1,31 @@
+.split-pane {
+    -fx-background-color: #2B2B2B;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #4D4D4D;
+    -fx-text-fill: white;
+}
+
+.password-field {
+    -fx-background-color: #4D4D4D;
+    -fx-text-fill: white;
+}
+
+.choice-box {
+    -fx-background-color: #4D4D4D;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #0073A8;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #005E89;
+}

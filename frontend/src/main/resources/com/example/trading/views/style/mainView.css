@@ -1,0 +1,29 @@
+#mainPane {
+    -fx-background-color: #2d2d2d;
+}
+
+#mainPane HBox {
+    -fx-padding: 10px;
+    -fx-background-color: #3d3d3d;
+}
+
+#mainPane HBox Button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: #616161;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 40px;
+}
+
+#mainPane HBox Button:hover {
+    -fx-background-color: #757575;
+}
+
+#mainPane HBox Button:pressed {
+    -fx-background-color: #424242;
+}
+
+#mainPane center {
+    -fx-padding: 20px;
+    -fx-background-color: #212121;
+}

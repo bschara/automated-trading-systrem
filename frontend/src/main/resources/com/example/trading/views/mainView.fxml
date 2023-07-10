@@ -1,0 +1,33 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Label?>
+<BorderPane fx:id="mainPane" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trading.controllers.mainPageController">
+    <stylesheets>
+        <URL value="@style/mainView.css" />
+    </stylesheets>
+    <top>
+        <HBox alignment="CENTER" spacing="20" prefWidth="${mainPane.width}">
+            <Button fx:id="tab1Button" onAction="#handleOption1Action" text="Dashboard" HBox.hgrow="ALWAYS" minWidth="150" />
+            <Button fx:id="tab2Button" onAction="#handleOption2Action" text="trading view" HBox.hgrow="ALWAYS" minWidth="150" />
+            <Button fx:id="tab3Button" onAction="#handleOption3Action" text="portfolio view" HBox.hgrow="ALWAYS" minWidth="150" />
+            <Button fx:id="tab4Button" onAction="#handleOption4Action" text="Strategy view" HBox.hgrow="ALWAYS" minWidth="150" />
+        </HBox>
+
+
+
+    </top>
+    <center>
+        <TableView fx:id="newsTable" maxWidth="700" maxHeight="350">
+            <columns>
+                <TableColumn text="Title" fx:id="titleColumn1" prefWidth="175"/>
+                <TableColumn text="Description" fx:id="descriptionColumn1" prefWidth="175"/>
+                <TableColumn text="Link" fx:id="linkColumn1" prefWidth="175"/>
+                <TableColumn text="Date" fx:id="dateColumn1" prefWidth="175"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

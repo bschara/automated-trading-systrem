@@ -1,0 +1,90 @@
+2023-05-25 02:23:32.808[1684970612808] | INFO  | background-preinit | o.h.validator.internal.util.Version  - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-25 02:23:32.862[1684970612862] | INFO  | main       | com.csis231.api.ApiApplication       - Starting ApiApplication using Java 18.0.1.1 with PID 12164 (C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512\api-spring\target\classes started by bchara in C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512)
+2023-05-25 02:23:32.863[1684970612863] | INFO  | main       | com.csis231.api.ApiApplication       - No active profile set, falling back to 1 default profile: "default"
+2023-05-25 02:23:33.381[1684970613381] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-25 02:23:33.439[1684970613439] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+2023-05-25 02:23:33.980[1684970613980] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8181 (http)
+2023-05-25 02:23:33.992[1684970613992] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8181"]
+2023-05-25 02:23:33.994[1684970613994] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2023-05-25 02:23:33.994[1684970613994] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-05-25 02:23:34.094[1684970614094] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2023-05-25 02:23:34.095[1684970614095] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
+2023-05-25 02:23:34.260[1684970614260] | INFO  | main       | o.h.jpa.internal.util.LogHelper      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-25 02:23:34.312[1684970614312] | INFO  | main       | org.hibernate.Version                - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-25 02:23:34.749[1684970614749] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Starting...
+2023-05-25 02:23:34.890[1684970614890] | INFO  | main       | com.zaxxer.hikari.pool.HikariPool    - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10fb4575
+2023-05-25 02:23:34.892[1684970614892] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Start completed.
+2023-05-25 02:23:34.908[1684970614908] | INFO  | main       | SQL dialect                          - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-25 02:23:34.909[1684970614909] | WARN  | main       | org.hibernate.orm.deprecation        - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-25 02:23:35.522[1684970615522] | INFO  | main       | o.h.e.t.j.p.i.JtaPlatformInitiator   - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-25 02:23:35.529[1684970615529] | INFO  | main       | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 02:23:35.763[1684970615763] | WARN  | main       | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-25 02:23:36.084[1684970616084] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8181"]
+2023-05-25 02:23:36.105[1684970616105] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8181 (http) with context path ''
+2023-05-25 02:23:36.112[1684970616112] | INFO  | main       | com.csis231.api.ApiApplication       - Started ApiApplication in 3.561 seconds (process running for 4.12)
+2023-05-25 02:27:54.731[1684970874731] | INFO  | http-nio-8181-exec-1 | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-25 02:27:54.732[1684970874732] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Initializing Servlet 'dispatcherServlet'
+2023-05-25 02:27:54.732[1684970874732] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Completed initialization in 0 ms
+2023-05-25 03:04:20.033[1684973060033] | INFO  | SpringApplicationShutdownHook | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 03:04:20.035[1684973060035] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown initiated...
+2023-05-25 03:04:20.037[1684973060037] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown completed.
+2023-05-25 08:17:07.065[1684991827065] | INFO  | background-preinit | o.h.validator.internal.util.Version  - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-25 08:17:07.108[1684991827108] | INFO  | main       | com.csis231.api.ApiApplication       - Starting ApiApplication using Java 18.0.1.1 with PID 10876 (C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512\api-spring\target\classes started by bchara in C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512)
+2023-05-25 08:17:07.109[1684991827109] | INFO  | main       | com.csis231.api.ApiApplication       - No active profile set, falling back to 1 default profile: "default"
+2023-05-25 08:17:07.640[1684991827640] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-25 08:17:07.701[1684991827701] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2023-05-25 08:17:08.211[1684991828211] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8181 (http)
+2023-05-25 08:17:08.219[1684991828219] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8181"]
+2023-05-25 08:17:08.220[1684991828220] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2023-05-25 08:17:08.220[1684991828220] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-05-25 08:17:08.303[1684991828303] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2023-05-25 08:17:08.304[1684991828304] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1155 ms
+2023-05-25 08:17:08.463[1684991828463] | INFO  | main       | o.h.jpa.internal.util.LogHelper      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-25 08:17:08.506[1684991828506] | INFO  | main       | org.hibernate.Version                - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-25 08:17:08.761[1684991828761] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Starting...
+2023-05-25 08:17:08.889[1684991828889] | INFO  | main       | com.zaxxer.hikari.pool.HikariPool    - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19eea77c
+2023-05-25 08:17:08.892[1684991828892] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Start completed.
+2023-05-25 08:17:08.906[1684991828906] | INFO  | main       | SQL dialect                          - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-25 08:17:08.907[1684991828907] | WARN  | main       | org.hibernate.orm.deprecation        - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-25 08:17:09.471[1684991829471] | INFO  | main       | o.h.e.t.j.p.i.JtaPlatformInitiator   - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-25 08:17:09.480[1684991829480] | INFO  | main       | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 08:17:09.732[1684991829732] | WARN  | main       | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-25 08:17:10.015[1684991830015] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8181"]
+2023-05-25 08:17:10.036[1684991830036] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8181 (http) with context path ''
+2023-05-25 08:17:10.045[1684991830045] | INFO  | main       | com.csis231.api.ApiApplication       - Started ApiApplication in 3.218 seconds (process running for 3.748)
+2023-05-25 08:17:22.449[1684991842449] | INFO  | http-nio-8181-exec-1 | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-25 08:17:22.449[1684991842449] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Initializing Servlet 'dispatcherServlet'
+2023-05-25 08:17:22.450[1684991842450] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Completed initialization in 1 ms
+2023-05-25 09:05:30.730[1684994730730] | INFO  | SpringApplicationShutdownHook | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 09:05:30.732[1684994730732] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown initiated...
+2023-05-25 09:05:30.735[1684994730735] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown completed.
+2023-05-25 09:06:36.348[1684994796348] | INFO  | background-preinit | o.h.validator.internal.util.Version  - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-25 09:06:36.395[1684994796395] | INFO  | main       | com.csis231.api.ApiApplication       - Starting ApiApplication using Java 18.0.1.1 with PID 11108 (C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512\api-spring\target\classes started by bchara in C:\Users\bacha\OneDrive\Desktop\intelllij-projects\api-spring-20230512)
+2023-05-25 09:06:36.396[1684994796396] | INFO  | main       | com.csis231.api.ApiApplication       - No active profile set, falling back to 1 default profile: "default"
+2023-05-25 09:06:36.857[1684994796857] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-25 09:06:36.901[1684994796901] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2023-05-25 09:06:37.339[1684994797339] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8181 (http)
+2023-05-25 09:06:37.346[1684994797346] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8181"]
+2023-05-25 09:06:37.346[1684994797346] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2023-05-25 09:06:37.346[1684994797346] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-05-25 09:06:37.427[1684994797427] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2023-05-25 09:06:37.430[1684994797430] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 996 ms
+2023-05-25 09:06:37.549[1684994797549] | INFO  | main       | o.h.jpa.internal.util.LogHelper      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-25 09:06:37.584[1684994797584] | INFO  | main       | org.hibernate.Version                - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-25 09:06:37.799[1684994797799] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Starting...
+2023-05-25 09:06:37.901[1684994797901] | INFO  | main       | com.zaxxer.hikari.pool.HikariPool    - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c472300
+2023-05-25 09:06:37.903[1684994797903] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Start completed.
+2023-05-25 09:06:37.917[1684994797917] | INFO  | main       | SQL dialect                          - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-25 09:06:37.919[1684994797919] | WARN  | main       | org.hibernate.orm.deprecation        - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-25 09:06:38.531[1684994798531] | INFO  | main       | o.h.e.t.j.p.i.JtaPlatformInitiator   - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-25 09:06:38.537[1684994798537] | INFO  | main       | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 09:06:38.782[1684994798782] | WARN  | main       | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-25 09:06:39.101[1684994799101] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8181"]
+2023-05-25 09:06:39.122[1684994799122] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8181 (http) with context path ''
+2023-05-25 09:06:39.131[1684994799131] | INFO  | main       | com.csis231.api.ApiApplication       - Started ApiApplication in 3.068 seconds (process running for 3.483)
+2023-05-25 09:08:54.424[1684994934424] | INFO  | http-nio-8181-exec-1 | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-25 09:08:54.424[1684994934424] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Initializing Servlet 'dispatcherServlet'
+2023-05-25 09:08:54.427[1684994934427] | INFO  | http-nio-8181-exec-1 | o.s.web.servlet.DispatcherServlet    - Completed initialization in 1 ms
+2023-05-25 10:46:32.166[1685000792166] | INFO  | SpringApplicationShutdownHook | o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-25 10:46:32.168[1685000792168] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown initiated...
+2023-05-25 10:46:32.170[1685000792170] | INFO  | SpringApplicationShutdownHook | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Shutdown completed.
